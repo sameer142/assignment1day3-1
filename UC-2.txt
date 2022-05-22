@@ -1,0 +1,19 @@
+package assignment.problems.java;
+
+public class DailyEmployeeWage {
+
+        public void employeeWage() {
+            
+            int wageperday = 20;
+            int hourperday = 8;
+            System.out.println("Daily Wage of Employee: "+(hourperday*wageperday));
+        }
+
+        public static void main(String[] args) {
+            
+            DailyEmployeeWage employee = new DailyEmployeeWage();
+            employee.employeeWage();
+        }
+
+
+}
