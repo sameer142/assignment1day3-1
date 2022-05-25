@@ -1,0 +1,26 @@
+package assignment.problems.java;
+
+import java.util.Objects;
+
+public class UC1 {
+    String employee;
+
+    public UC1() {
+
+    }
+
+    void attendence(){
+        String employee = "yes";
+
+        if (Objects.equals(employee, "yes")) {
+            System.out.println("present");
+        }else{
+            System.out.println("absent");
+        }
+    }
+
+    public static void main(String[] args) {
+        UC1 employee =new UC1();
+        employee.attendence();
+    }
+}
